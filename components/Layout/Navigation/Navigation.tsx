@@ -8,7 +8,7 @@ import { useState } from "react";
 
 const navigation = [
   { name: "Pokédex", href: routes.pokedex },
-  { name: "Types", href: routes.type },
+  { name: "Type", href: routes.type },
   { name: "Moves", href: routes.moves },
   // { name: "Abilities", href: "#" },
   { name: "Items", href: routes.items },

@@ -7,7 +7,7 @@ import routes from "@component/utils/routes";
 
 const navigation = [
   { name: "Pokédex", href: routes.pokedex },
-  { name: "Types", href: routes.types },
+  { name: "Type", href: routes.type },
   { name: "Moves", href: routes.moves },
   // { name: "Abilities", href: "#" },
   { name: "Items", href: routes.items },

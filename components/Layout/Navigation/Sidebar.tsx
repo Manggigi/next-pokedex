@@ -15,7 +15,7 @@ const navigation = [
     icon: HomeIcon,
     current: true,
   },
-  { name: "Types", href: routes.types, icon: UsersIcon, current: false },
+  { name: "Type", href: routes.type, icon: UsersIcon, current: false },
   {
     name: "Moves",
     href: routes.moves,
