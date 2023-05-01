@@ -14,7 +14,7 @@ const main = async () => {
 
   const jsonString = JSON.stringify(pokemonData);
 
-  fs.writeFile("pokemons.json", jsonString, (err) => {
+  fs.writeFile("savePokemonDetails.json", jsonString, (err) => {
     if (err) {
       console.error(err);
       return;
