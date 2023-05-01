@@ -99,7 +99,7 @@ export default function Sidebar({ className }: { className?: string }) {
             </ul>
           </li>
           <li>
-            <div className="text-xs font-semibold leading-6 text-gray-400">
+            {/* <div className="text-xs font-semibold leading-6 text-gray-400">
               Your teams
             </div>
             <ul role="list" className="-mx-2 mt-2 space-y-1">
@@ -121,7 +121,7 @@ export default function Sidebar({ className }: { className?: string }) {
                   </a>
                 </li>
               ))}
-            </ul>
+            </ul> */}
           </li>
           <li className="-mx-6 mt-auto">
             <a
