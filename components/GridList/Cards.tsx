@@ -56,7 +56,7 @@ export default function Cards() {
         >
           <Link href={routes.pokemon.link(pokemon.id)}>
             <div className="h-16 px-8 mt-8 ">
-              {/* <Badge className="top-3 left-3 absolute">#{pokemon.id}</Badge> */}
+              <Badge className="top-3 left-3 absolute">#{pokemon.id}</Badge>
               <Image
                 className="mx-auto flex-shrink-0 object-contain max-h-32"
                 src={pokemon.pictureUrl}
@@ -70,13 +70,13 @@ export default function Cards() {
               <div className="flex w-0 flex-1 py-2 ">
                 <div className="w-0 rounded-bl-lg border border-transparent text-sm font-semibold text-gray-700 pl-3">
                   {pokemon.name}
-                  {/* <div className="flex mt-2">
+                  <div className="flex mt-2">
                     {pokemon.types.map((type) => (
                       <Badge type={type} key={type} className="mr-1">
                         {type}
                       </Badge>
                     ))}
-                  </div> */}
+                  </div>
                 </div>
               </div>
             </div>
