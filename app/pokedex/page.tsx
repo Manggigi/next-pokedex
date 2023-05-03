@@ -7,9 +7,14 @@ import Container from "@component/components/Containers/Container";
 export default function Page() {
   return (
     <div className="flex pt-4">
-      <Container>
-        <Cards />
-      </Container>
+      {/* <div className="ml-52"> */}
+        {/* <Breadcrumbs /> */}
+        {/* <Divider /> */}
+        {/* <div className="py-3 font-semibold text-lg">1010 Pokemons</div> */}
+        <Container>
+          <Cards />
+        </Container>
+      {/* </div> */}
     </div>
   );
 }
