@@ -81,7 +81,7 @@ export default function Navigation() {
                 width={64}
                 height={64}
               />
-              <p className="text-gray-900 text-lg ml-5">PokeGi</p>
+              {/* <p className="text-gray-900 text-lg ml-5">PokeGee</p> */}
             </a>
             <button
               type="button"
