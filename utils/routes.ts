@@ -6,7 +6,7 @@ const routes = {
   items: "/items",
   locations: "/locations",
   abilities: "/abilities",
-  pokemon: { link: (pokemonId: number) => `/pokemon/${pokemonId}` },
+  pokemon: { link: (pokemonId: number) => `/pokedex/${pokemonId}` },
   profile: {
     index: "/profile",
     user: {
